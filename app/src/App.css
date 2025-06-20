@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(204, 154, 88);
+    /* background-image: url('pexels-pixabay-158756.jpg'); */
+}
+div{
+    background-position: relative;
+    background-color: rgb(178, 134, 67);
+
+}

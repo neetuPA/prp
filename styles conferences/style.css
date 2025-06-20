@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+section{
+    background: url(pexels-orlovamaria-4915606.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    background-repeat: no-repeat;
+}
+.heading {
+    display: block;
+    top: 0;
+    left: 0;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100px;
+    padding-left: 150px;
+    padding-top: 30px;
+    font-size: 60px;
+    align-content: flex-start;
+
+}
+.nav{
+  color: #305856;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: end;
+  justify-items: end;
+  
+
+  
+}
+.navbar{
+    justify-content: flex-end;
+    padding-left:300px;
+    padding-top: 100px;
+}
+a{
+    text-decoration: none;
+     color:white;
+   
+    
+   }
+   ul{
+       display: flex;
+       gap: 5px;
+       list-style: none;
+   }
+   
+   ul li a{
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       font-weight: 900;
+       padding: 10px;
+      
+    
+   }   
+   .content{
+    text-align: center;
+    color:#305856;
+    padding-top: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight:90px;
+   }
+   .des{
+font-size:20px;
+color: #fff;
+padding-top: 10px;
+font-family: 'Courier New', Courier;
+   }
+   .button{
+    color:white;
+    text-align: center;
+    padding-top:20px;
+   }
+   .button input{
+    background-color:#305856;
+    color: #fff;
+    padding:16px 28px;
+    border-color: #fff;
+    
+   }
+   .button:hover{
+    transform: scale(1.1);
+   }
+   .footer{
+    display: flex;
+    justify-content: space-around;
+
+    padding-left: 140px;
+    padding-top: 60px;
+    font-size: 16px;
+    color: rgb(156, 150, 150);
+   }
+   .footer img{
+    box-shadow: 2px 3px;
+   }
+   .footer img:hover{
+    transform: scale(1.2);
+   }
